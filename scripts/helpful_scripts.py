@@ -27,7 +27,7 @@ def get_contract(contract_name):
     """
     This function will either:
         - Get an address from the config
-        - Or deploy a Mock to use for a network that doesn't have the conract
+        - Or deploy a Mock to use for a network that doesn't have the contract
 
     Args:
         contract_name (string): This is the name of the contract that we will get

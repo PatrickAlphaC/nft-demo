@@ -43,7 +43,7 @@ def main():
                 upload_to_ipfs(metadata_file_name)
 
 
-# curl -X POST -F file=@metadata/goerli/0-SHIBA_INU.json http://localhost:5001/api/v0/add
+# curl -X POST -F file=@metadata/sepolia/0-SHIBA_INU.json http://localhost:5001/api/v0/add
 
 
 def upload_to_ipfs(filepath):

@@ -2,7 +2,7 @@ from brownie import accounts, network, config, LinkToken, VRFCoordinatorMock, Co
 from web3 import Web3
 
 LOCAL_BLOCKCHAIN_ENVIRONMENTS = ["hardhat", "development", "ganache", "mainnet-fork"]
-OPENSEA_URL = "https://testnets.opensea.io/assets/{}/{}"
+OPENSEA_URL = "https://testnets.opensea.io/assets/sepolia/{}/{}"
 BREED_MAPPING = {0: "PUG", 1: "SHIBA_INU", 2: "ST_BERNARD"}
 
 
